@@ -40,12 +40,16 @@ h2{
     justify-content: center;
     align-self: center;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 
 }
 
+.content-login-box{
+    position: relative;
+    
+}
 input{
     
     display: block;
@@ -57,10 +61,15 @@ input{
     margin-top: 10px;
     border: 1px solid #222;
     cursor: pointer;
+    
 
 }
 
 
+
+input[type="text"]{
+    padding: 20px;
+}
 
 .content-login-box{
     margin-left: 10px;
@@ -68,7 +77,7 @@ input{
 }
 
 ul{
-    margin-top: 100px;
+    margin-top: 65px;
     display: flex;
     list-style: none;
     direction: ltr;
@@ -91,4 +100,57 @@ hr{
     width: 40%;
     display: inline-block;
     margin:0 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+form p a {
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+input[type="button"]{
+    border-radius: 30px;
+    height: 40px;
+}
+
+
+#password-field{
+    position: relative;
+}
+
+#show-password{
+    position: absolute;
+    top: 39.8%;
+    right: 30px; 
+    font-size: 15px;
+    transform: translateY(-20%);
+    background-color: #fff;
+    border: none;
+    color: rgb(58, 90, 197);
+    cursor: pointer;
+}
+
+.or{
+    text-align: center;
+}
+
+#sineIn{
+    background-color: #0077b5;
+    color: #fff;
+}
+
+
+.link-join-now{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header-login-box h1,p {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
