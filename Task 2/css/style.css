@@ -48,6 +48,12 @@ h2{
 
 .content-login-box{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
 input{
@@ -71,10 +77,6 @@ input[type="text"]{
     padding: 20px;
 }
 
-.content-login-box{
-    margin-left: 10px;
-    margin-right: 10px;
-}
 
 ul{
     margin-top: 65px;
@@ -153,4 +155,20 @@ input[type="button"]{
     padding-left: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+
+.Signin-apple{
+    border-radius: 30px;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Signin-apple img{
+    width: 30px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    
 }
