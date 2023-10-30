@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1
+{
+    margin: 10px;
+}
+p{
+    margin: 10px;
+}
+
+img{
+    position: absolute;
+  top: 25%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+    border: 1px solid #222;
+    background-repeat: repeat;
+}
