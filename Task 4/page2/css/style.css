@@ -8,22 +8,55 @@
 html, body{
     width: 100%;
     height: 100%;
-    background-color: rgb(245, 226, 114);
+    background-color: #85b6ff;
 }
 
 .container{
-    background-color: rgb(245, 226, 114);
-    width: 100%;
-    height: 80%;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    align-items: center;
-
-}
-
-.box{
-    width: 60%;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 80%;
+    border-radius: 40px;
 }
 
+form{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-divs{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+input{
+    width: 100%;
+    padding: 17px;
+    border-radius: 10px;
+    border:1px solid #85b6ff;
+}
+
+label{
+    color: #5475a6;
+}
+
+.btn{
+    width: max-content;
+    background-color: #30acff;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
