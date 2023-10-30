@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0;
+    justify-content: center;
+    border: 25px #ff7b00 solid;
+}
+
+.container div{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #000;
+    padding: 60px;
+    margin: 0;
+    color: aliceblue;
+    font-size: 50px;
+}
+
